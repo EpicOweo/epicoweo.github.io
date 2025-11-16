@@ -1,0 +1,66 @@
+<html>
+<head>
+	<title>Projects - EpicOweo</title>
+	<meta charset="utf8">
+	<link href="./stylesheets/master.css" rel="stylesheet" type="text/css">
+	<link href="./stylesheets/projects.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="menubar">
+			<!--Top menu bar links-->
+			<a class="toplinks" href="./index.html">Home</a>
+			<a class="toplinks" href="./projects.html">Projects</a>
+		</div>
+
+		<br>
+		<h1>All Projects</h1>
+		
+		<p>Welcome to the projects page! This is a list of my projects, with details for each.</p>
+
+		<br>
+
+		<div class="projectslist">
+			<div class="personalprojectslist">
+				<h2>Personal Projects</h2>
+				<br>
+				<div>
+					<h3>34-pin 3.5" Floppy to USB</h3>
+					<p>Status: <b style="color: yellow;">in progress</b></p>
+					<p>Repository: <a href="https://github.com/EpicOweo/floppy35-to-usb" target="_blank">https://github.com/EpicOweo/floppy35-to-usb</a></p>
+					<p>Overview: The goal of this project is to allow a modern desktop computer
+						to interface with a 3.5" floppy drive. This is accomplished using an Arduino with a custom PCB.
+						The Arduino uses <a href="https://github.com/adafruit/Adafruit_Floppy">Adafruit's floppy software</a>
+						and shift registers to handle communication to and from the drive, and the host PC communicates with the Arduino via serial.
+					</p>
+					<p>Current progress: So far, I am working on the hardware implementation. I'm writing code to allow I/O between
+						PISO/SIPO shift registers and the Arduino to interface with the drive. I still need to implement proper serial
+						communication with a computer (currently testing on linux).
+					</p>
+				</div>
+				<br>
+				<div>
+					<h3>Custom alarm clock with weather view</h3>
+					<p>Status: <b style="color: lightcoral;">not started</b></p>
+					<p>Overview: A custom alarm clock hardware/software implementation using an ESP8266.
+						Using the onboard wifi chip, I plan to have a view for the current outdoor
+						temperature and weather as well as different configurations for units, etc.
+					</p>
+				</div>
+			</div>
+			
+			<br>
+
+			<div class="schoolprojectslist">
+				<h2>School Projects</h2>
+				<div>
+					<h3>Musical Macro Keyboard</h3>
+					<p>Status: <b style="color: lightgreen;">completed</b></p>
+					<p>Overview:</p>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</body>
+</html>

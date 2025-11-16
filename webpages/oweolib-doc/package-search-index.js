@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"io.github.epicoweo.io"},{"l":"io.github.epicoweo.math"},{"l":"io.github.epicoweo.misc"},{"l":"io.github.epicoweo.test"},{"l":"io.github.epicoweo.util"}]
